@@ -65,7 +65,7 @@ public class Main
                     RandomAngle();
                 }
 
-                gr.translate(750 + xPos, 400 + yPos);
+                gr.translate(width / 2 + xPos, height / 2 + yPos);
 
                 Ellipse2D.Double circle = new Ellipse2D.Double(-radius, -radius, 2 * radius, 2 * radius);
                 gr.setColor(Color.GREEN);
